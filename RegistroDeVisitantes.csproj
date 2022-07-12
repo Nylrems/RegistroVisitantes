@@ -140,6 +140,7 @@
       <DependentUpon>202207122250508_TablaVisitantes.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\HistorialVisitas.cs" />
     <Compile Include="Models\Visitantes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
