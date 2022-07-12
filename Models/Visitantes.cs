@@ -22,5 +22,6 @@ namespace RegistroDeVisitantes.Models
     public class EFEntities : DbContext
     {
         public DbSet<Visitantes> visitantes { get; set; }
+        public DbSet<HistorialVisitas> HistorialVisitas { get; set; }
     }
 }

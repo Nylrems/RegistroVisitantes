@@ -130,6 +130,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HistorialVisitasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\VisitantesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -139,7 +140,12 @@
     <Compile Include="Migrations\202207122250508_TablaVisitantes.designer.cs">
       <DependentUpon>202207122250508_TablaVisitantes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202207122347005_HistorialVisitas.cs" />
+    <Compile Include="Migrations\202207122347005_HistorialVisitas.designer.cs">
+      <DependentUpon>202207122347005_HistorialVisitas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Eventos.cs" />
     <Compile Include="Models\HistorialVisitas.cs" />
     <Compile Include="Models\Visitantes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -185,6 +191,11 @@
     <Content Include="Views\Visitantes\Details.cshtml" />
     <Content Include="Views\Visitantes\Edit.cshtml" />
     <Content Include="Views\Visitantes\Index.cshtml" />
+    <Content Include="Views\HistorialVisitas\Create.cshtml" />
+    <Content Include="Views\HistorialVisitas\Delete.cshtml" />
+    <Content Include="Views\HistorialVisitas\Details.cshtml" />
+    <Content Include="Views\HistorialVisitas\Edit.cshtml" />
+    <Content Include="Views\HistorialVisitas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -205,6 +216,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202207122250508_TablaVisitantes.resx">
       <DependentUpon>202207122250508_TablaVisitantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207122347005_HistorialVisitas.resx">
+      <DependentUpon>202207122347005_HistorialVisitas.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

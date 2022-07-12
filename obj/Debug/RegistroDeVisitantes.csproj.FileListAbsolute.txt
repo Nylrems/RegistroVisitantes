@@ -86,3 +86,4 @@ C:\Users\Smerl\Repos\RegistroDeVisitantes\bin\FluentMigrator.pdb
 C:\Users\Smerl\Repos\RegistroDeVisitantes\bin\FluentMigrator.xml
 C:\Users\Smerl\Repos\RegistroDeVisitantes\obj\Debug\RegistroDeVisitantes.Migrations.TablaVisitantes.resources
 C:\Users\Smerl\Repos\RegistroDeVisitantes\obj\Debug\RegistroDeVisitantes.csproj.GenerateResource.cache
+C:\Users\Smerl\Repos\RegistroDeVisitantes\obj\Debug\RegistroDeVisitantes.Migrations.HistorialVisitas.resources
