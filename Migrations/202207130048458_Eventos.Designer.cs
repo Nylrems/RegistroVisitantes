@@ -13,7 +13,7 @@ namespace RegistroDeVisitantes.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202207130043200_Eventos"; }
+            get { return "202207130048458_Eventos"; }
         }
         
         string IMigrationMetadata.Source

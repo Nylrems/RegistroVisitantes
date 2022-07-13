@@ -24,6 +24,6 @@ namespace RegistroDeVisitantes.Models
         public DbSet<Visitantes> visitantes { get; set; }
         public DbSet<HistorialVisitas> HistorialVisitas { get; set; }
 
-        public System.Data.Entity.DbSet<RegistroDeVisitantes.Models.Eventos> Eventos { get; set; }
+        public DbSet<Eventos> Eventos { get; set; }
     }
 }

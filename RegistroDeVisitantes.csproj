@@ -145,9 +145,9 @@
     <Compile Include="Migrations\202207122347005_HistorialVisitas.designer.cs">
       <DependentUpon>202207122347005_HistorialVisitas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202207130043200_Eventos.cs" />
-    <Compile Include="Migrations\202207130043200_Eventos.designer.cs">
-      <DependentUpon>202207130043200_Eventos.cs</DependentUpon>
+    <Compile Include="Migrations\202207130048458_Eventos.cs" />
+    <Compile Include="Migrations\202207130048458_Eventos.designer.cs">
+      <DependentUpon>202207130048458_Eventos.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Eventos.cs" />
@@ -230,8 +230,8 @@
     <EmbeddedResource Include="Migrations\202207122347005_HistorialVisitas.resx">
       <DependentUpon>202207122347005_HistorialVisitas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202207130043200_Eventos.resx">
-      <DependentUpon>202207130043200_Eventos.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202207130048458_Eventos.resx">
+      <DependentUpon>202207130048458_Eventos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
