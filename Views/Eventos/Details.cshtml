@@ -1,0 +1,42 @@
+﻿@model RegistroDeVisitantes.Models.Eventos
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Eventos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreDelEvento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreDelEvento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Detalles)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Detalles)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaEvento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaEvento)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EventosId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

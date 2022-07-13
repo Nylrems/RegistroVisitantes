@@ -130,6 +130,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EventosController.cs" />
     <Compile Include="Controllers\HistorialVisitasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\VisitantesController.cs" />
@@ -143,6 +144,10 @@
     <Compile Include="Migrations\202207122347005_HistorialVisitas.cs" />
     <Compile Include="Migrations\202207122347005_HistorialVisitas.designer.cs">
       <DependentUpon>202207122347005_HistorialVisitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207130043200_Eventos.cs" />
+    <Compile Include="Migrations\202207130043200_Eventos.designer.cs">
+      <DependentUpon>202207130043200_Eventos.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Eventos.cs" />
@@ -196,6 +201,11 @@
     <Content Include="Views\HistorialVisitas\Details.cshtml" />
     <Content Include="Views\HistorialVisitas\Edit.cshtml" />
     <Content Include="Views\HistorialVisitas\Index.cshtml" />
+    <Content Include="Views\Eventos\Create.cshtml" />
+    <Content Include="Views\Eventos\Delete.cshtml" />
+    <Content Include="Views\Eventos\Details.cshtml" />
+    <Content Include="Views\Eventos\Edit.cshtml" />
+    <Content Include="Views\Eventos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -219,6 +229,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202207122347005_HistorialVisitas.resx">
       <DependentUpon>202207122347005_HistorialVisitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207130043200_Eventos.resx">
+      <DependentUpon>202207130043200_Eventos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
